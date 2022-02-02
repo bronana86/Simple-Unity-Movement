@@ -519,6 +519,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f0b80a7df28b8c4790ab0108c8c6a16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  text: {fileID: 597322136}
+  titleText: Inchworm Adventure
+  rightText: You are moving right.
+  leftText: You are moving left.
+  titleFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  rightFont: {fileID: 11400000, guid: 72b80575a8d99384f95c42a35af50fa8, type: 2}
+  leftFont: {fileID: 11400000, guid: ef64757f6d463ab40ae132e287fe094a, type: 2}
 --- !u!1 &1561901398
 GameObject:
   m_ObjectHideFlags: 0
@@ -529,6 +536,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1561901400}
   - component: {fileID: 1561901399}
+  - component: {fileID: 1561901401}
   m_Layer: 0
   m_Name: Inchworm
   m_TagString: Untagged
@@ -601,3 +609,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1561901401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561901398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c449eae337be9774cbb788db312c442b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
